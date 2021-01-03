@@ -1,16 +1,18 @@
-
+*{
+    background-color: #f1f1f1;
+}
 .second{
     padding: 50px  30px ;
-    background-color: #f1f1f1;
     text-align: center;
     /* margin-top: 40px; */
 }
 .second p {
-    font-size: 22px;
+    font-size: 20px;
     color: #000;
+    line-height: 30px;
     font-family: 'Times New Roman', Times, serif;
 }
 .second p.custom{
     font-size: 18px;
-    color: #666;
+    color: #EA9E19;
 }

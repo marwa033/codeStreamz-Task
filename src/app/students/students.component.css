@@ -1,0 +1,37 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    text-align: center;
+    line-height: -25px;
+}
+
+
+figure{
+    overflow: hidden;
+}
+img{
+    transition: 1.5s ease-in-out;
+    cursor: zoom-in;
+    border-radius:  10px 10px 0px 0px
+}
+img:hover{
+    transform: scale(1.5);
+    border-radius:  10px 10px 0px 0px
+}
+.card-title{
+    color:#EA9E19;
+    font-weight: bold;
+}
+.card{
+    border-radius: 10px
+}
+.card img{
+    border-radius: 10px 10px 0px 0px
+}
+.hideSection{
+    display: none;
+}
+.card-body{
+    padding:0.5rem
+}

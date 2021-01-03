@@ -1,0 +1,13 @@
+<ngb-carousel *ngIf="images" [showNavigationArrows]="showNavigationArrows" [showNavigationIndicators]="showNavigationIndicators">
+    <ng-template ngbSlide *ngFor="let image of images">
+      <div class="picsum-img-wrapper">
+        <img [src]="image" alt="Random slide" class='carouselImage'>
+      </div>
+      <div class="carousel-caption text">
+        <span class="first">Landing Page</span>
+        <span class="second">For School</span>
+        <!-- <p>This carousel hides navigation arrows and indicators.</p> -->
+      </div>
+    </ng-template>
+  </ngb-carousel>
+  

@@ -1,0 +1,43 @@
+.carouselImage {
+     width:100%;
+     height: 500px;
+  }
+::ng-deep .container-fluid { padding:0 !important; }
+.text{
+  top: 50%  
+}
+.text span{
+  text-transform: uppercase;
+  display: block;
+}
+.first{
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  animation: textanimation 2s ease-in-out;
+}
+@keyframes textanimation{
+  0%{
+    letter-spacing: 20px;
+  }
+  100%{
+    letter-spacing: 1px;
+  }
+
+}
+.second{
+  font-size: 30px;
+  font-weight: 700;
+  color: #EA9E19;
+  animation: animation 2s ease-in-out;
+}
+
+@keyframes animation{
+  0%{
+    transform: scale(0);
+  }
+  100%{
+    letter-spacing: 1px;
+  }
+}
+

@@ -1,0 +1,27 @@
+*{
+    background-image: linear-gradient(to right bottom, #03021e, #03021e, #03021e, #03021e, #03021e);
+    padding: 5px;
+}
+h4 , p{
+    color: white;
+    padding: 0%;
+}
+h4{
+    color: #EA9E19;
+    margin: 2px;
+    /* text-decoration: underline; */
+}
+.copy{
+    text-align: center;
+} 
+.first{
+    text-align: center;
+    border-right: 1px solid #EA9E19
+}
+.last{
+    text-align: center;
+    border-left: 1px solid #EA9E19
+}
+span{
+    color: #EA9E19;
+}
